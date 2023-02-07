@@ -1,0 +1,29 @@
+html {
+  background: #ddd;  
+  height: 100%;
+  display: flex;
+}
+body {
+  width: 100%;
+  margin: auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.Form-List {
+  font-size: 15px;
+  max-width: 300px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 8px 16px;
+}
+
+.new-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
