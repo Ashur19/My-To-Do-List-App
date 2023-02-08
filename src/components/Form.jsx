@@ -17,9 +17,6 @@ const Form = props => {
             <div className='Form-List'>
                 <div className='Form-Input'>
                     <input type={Text} className='Form-Input-Text' value={Description} onChange={e => setDescription(e.target.value)} />
-                    <button className='Form-Input-Button' disabled={Description ? "" : "Disabled"}>
-                        Add
-                    </button>
                 </div>
             </div>
         </form>
