@@ -17,7 +17,7 @@ const Form = props => {
         <form onSubmit={handleSubmit}>
             <div className='Form-List'>
                 <div className='Form-Input'>
-                    <Input type={Text} className='Form-Input-Text' value={Description} onChange={e => setDescription(e.target.value)}/>
+                    <Input required onInvalid={e => e.target.setCustomValidity("Please, write me. Why are you bad with me? :(")} onInput={e => e.target.setCustomValidity("")} type={Text} className='Form-Input-Text' value={Description} onChange={e => setDescription(e.target.value)} />
                 </div>
             </div>
         </form>
